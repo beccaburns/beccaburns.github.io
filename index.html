@@ -4,10 +4,20 @@
 
 <head>
         <link rel="stylesheet" href="style.css">
+
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>My First Website</title>
 </head>
-
+<style>
+    .holder {
+      display: inline;
+    }
+    .holder img {
+      max-height: 200px;
+      max-width: 200px;
+      object-fit: cover;
+    }
+  </style>
 <body>
   
   <nav>
@@ -22,7 +32,9 @@
   <div class="blurb">
       <h1>Hello World</h1>
       <p>I'm Becca, and I attend the Craft Academy Bootcamp<p>
-      <img src="Images/67764157_10161851621430532_4275880207933505536_n.jpg">
+      <div class='holder'>
+        <img src="Images/67764157_10161851621430532_4275880207933505536_n.jpg">
+      </div>  
 
    </div><!-- /.blurb -->
   </div><!-- /.container -->
